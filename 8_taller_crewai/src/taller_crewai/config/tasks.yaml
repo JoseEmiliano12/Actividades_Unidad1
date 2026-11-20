@@ -1,0 +1,22 @@
+tarea_investigacion:
+  description: >
+    Busca noticias recientes y verificables sobre {topic}.
+    Considera que estamos en {current_year}. Identifica qué pasó,
+    quiénes están involucrados, cuándo ocurrió y qué consecuencias tiene.
+    Registra la fuente de cada dato que encuentres.
+  expected_output: >
+    Una lista de 5 a 7 hallazgos clave sobre {topic}, cada uno con
+    una breve explicación y la fuente de donde salió la información.
+  agent: investigador_noticias
+
+tarea_redaccion:
+  description: >
+    Con los hallazgos de la investigación, redacta un artículo de noticias
+    sobre {topic}. Usa pirámide invertida: titular, entradilla (lead) con
+    lo más importante, desarrollo con contexto y detalles, y cierre.
+    Mantén tono objetivo, sin opiniones personales. Cita las fuentes.
+  expected_output: >
+    Un artículo de noticias en markdown con: título, fecha, entradilla,
+    cuerpo desarrollado en 3-4 párrafos, y una sección final de "Fuentes"
+    con los enlaces o medios consultados.
+  agent: redactor_noticias
