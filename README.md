@@ -15,6 +15,4 @@ Este repositorio reúne las actividades, prácticas y evidencias de la Unidad 1 
 - **09_talleres:** prácticas de redes neuronales, procesamiento del lenguaje natural, lógica difusa e imágenes para clasificación.
 - **10_aprendizaje:** ejercicios de aprendizaje automático con árboles de decisión y conjuntos de datos.
 
-Los archivos se conservan organizados por actividad. Para ejecutar los programas, se necesitan Python y las bibliotecas que utiliza cada práctica. Algunas rutas de datos pueden requerir ajustes al equipo donde se ejecuten.
 
-No se incluyen claves de API, entornos virtuales, cachés ni registros de ejecución. La carpeta de historia de la IA se conserva con un archivo `.gitkeep` porque todavía no tiene actividades.
